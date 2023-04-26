@@ -1,0 +1,190 @@
+<DOCTYPE! html>
+<html lang="bn">
+<head>
+    <title>Tenant Registration Form</title>
+<meta charset utf-8>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item"><table><td>ভাড়াটিয়ার এক কপি<br>পাসপোর্ট সাইজ ছবি</td></table></div>
+  <div class="grid-item">
+      <h1>ঢাকা মেট্রোপলিটান পুলিশ</h1><br>
+      <label>বিভাগ :</label><input type="text" id="department"><br>
+      <label>থানা :</label><input type="text" id="policeDivision"><br><br><br>
+      <h2><u>ভাড়াটিয়ার নিবন্ধন ফরম</u></h2>
+  </div>
+  <div class="grid-item">
+  <form id="buildingDetails" method="post">
+  <table id="gridBox2">
+  <td>
+      <label>ফ্ল্যাট/তলা  :</label><input type="text" id="flatDetails"><br>
+      <label>বাড়ী/হোল্ডিং:</label><input type="text" id="buidingDetails"><br>
+      <label>রাস্তা      :</label><input type="text" id="roadDetails"><br>
+      <label>এলাকা     :</label><input type="text" id="areaDetails"><br>
+      <label>পোস্ট কোড :</label><input type="text" id="postCode">
+  </td>
+  </table>
+  </form>      
+  </div>
+</div>
+<div class="formPage">
+<div class="register">
+<form id="register" method="post">
+    <label>১. ভাড়াটিয়া/বাড়ীওয়ালার নাম :</label>
+    <input type="text" id="fullName">
+    <br>
+    <label>২. পিতার নাম :</label>
+    <input type="text" id="fatherName">
+    <br>
+    <div id="left">
+        <label>৩. জন্ম তারিখ :</label>
+        <input type="text" id="birthDate" width=50%></div>
+    <div id="right">
+        <label>বৈবাহিক অবস্থা :</label>
+        <input type="text" id="fullName"></div>
+    <br>
+    <label>৪. স্থায়ী ঠিকানা :</label>
+    <input type="text" id="currentAddress">
+    <br>
+    <br>
+    <label>৫. পেশা ও প্রতিষ্ঠান/কর্মস্থলের ঠিকানা :</label>
+    <input type="text" id="workAddress">
+    <br>
+    <div id="left">
+        <label>৬. ধর্ম :</label>
+        <input type="text" id="religion"></div>
+    <div id="right">
+        <label>শিক্ষাগত যোগ্যতা :</label>
+        <input type="text" id="educationalQualification"></div>
+    <br>
+    <div id="left">
+        <label>৭. মোবাইল নম্বর :</label>
+        <input type="text" id="contactNumber"></div>
+    <div id="right">
+        <label>ইমেইল আইডি :</label>
+        <input type="text" id="emailID"></div>
+    <br>
+    <label>৮. জাতীয় পরিচয়পত্র নম্বর :</label>
+    <input type="text" id="nationalID">
+    <br>
+    <label>৯. পাসপোর্ট নম্বর (যদি থাকে) :</label>
+    <input type="text" id="passportNumber">
+    <br>
+    <label>১০. জরুরী যোগাযোগ :</label>
+    <br>
+    <div id="left">
+        <label>&emsp;(ক) নাম :</label>
+        <input type="text" id="contactName"></div>
+    <div id="right">
+        <label>(খ) সম্পর্ক :</label>
+        <input type="text" id="contactRelation"></div>
+    <br>
+    <div id="left">
+        <label>&emsp;(গ) ঠিকানা :</label>
+        <input type="text" id="contactAddress"></div>
+    <div id="right">
+        <label>(ঘ) মোবাইল নম্বর :</label>
+        <input type="text" id="contactNumber"></div>
+    <br>
+    <label>১১. পরিবার / মেসের সঙ্গীয় সদস্যদের বিবরণ :</label>
+    <input type="text" id="otherContacts">
+    <br>
+    <br>
+    <table class="Center">
+    <tr>
+    <th>ক্রঃ নং</th><th>নাম</th><th>বয়স</th><th>পেশা</th><th>মোবাইল নম্বর</th>
+    </tr>
+    <tr>
+    <td>১।</td>
+    <td><input type="text" id="firstContactName" size="50"></td>
+    <td><input type="text" id="firstContactAge"></td>
+    <td><input type="text" id="firstContactJob"></td>
+    <td><input type="text" id="firstContactNumber" size="20"></td>
+    </tr>
+    <tr>
+    <td>২।</td>
+    <td><input type="text" id="secondContactName" size="50"></td>
+    <td><input type="text" id="secondContactAge"></td>
+    <td><input type="text" id="secondContactJob" ></td>
+    <td><input type="text" id="secondContactNumber" size="20"></td>
+    </tr>
+    <tr>
+    <td>৩।</td>
+    <td><input type="text" id="thirdContactName" size="50"></td>
+    <td><input type="text" id="thirdContactAge"></td>
+    <td><input type="text" id="thirdContactJob"></td>
+    <td><input type="text" id="thirdContactNumber" size="20"></td>
+    </tr>
+    </table>
+    <br>
+    <div id="left">
+        <label>১২. গৃহকর্মীর নাম :</label>
+        <input type="text" id="spouseContact"></div>
+    <div id="right">
+        <label>জাতীয় পরিচয়পত্র নং :</label>
+        <input type="text" id="nationalID"></div>
+    <br>
+    <div id="left">
+        <label>&emsp;মোবাইল নম্বর :</label>
+        <input type="text" id="spouseNumber"></div>
+    <div id="right">
+        <label>স্থায়ী ঠিকানা :</label>
+        <input type="text" id="spouseAddress"></div>
+    <br>
+    <br>
+    <div id="left">
+        <label>১৩. ড্রাইভারের নাম :</label>
+        <input type="text" id="driverName"></div>
+    <div id="right">
+        <label>জাতীয় পরিচয়পত্র নং :</label>
+        <input type="text" id="driverNationalID"></div>
+    <br>
+    <div id="left">
+        <label>&emsp;মোবাইল নম্বর :</label>
+        <input type="text" id="driverNumber"></div>
+    <div id="right">
+        <label>স্থায়ী ঠিকানা :</label>
+        <input type="text" id="driverAddress"></div>
+    <br>
+    <br>
+    <div id="left">
+        <label>১৪. পূর্ববর্তী বাড়ীওয়ালার নাম :</label>
+        <input type="text" id="previousOwner"></div>
+    <div id="right">
+        <label>মোবাইল নম্বর :</label>
+        <input type="text" id="ownerContact"></div>
+    <br>
+    <label>&emsp;ঠিকানা :</label>
+    <input type="text" id="ownerAddress">
+    <br>
+    <label>১৫. পূর্ববর্তী বাসা ছাড়ার কারণ :</label>
+    <input type="text" id="reason_for_move">
+    <br>
+    <div id="left">
+        <label>১৬. বর্তমান বাড়িওয়ালার নাম :</label>
+        <input type="text" id="currentOwner"></div>
+    <div id="right">
+        <label>মোবাইল নম্বর :</label>
+        <input type="text" id="current-ownerContact"></div>
+    <br>
+    <label>১৭. বর্তমান বাড়িতে কোন তারিখ থেকে বসবাস :</label>
+    <input type="text" id="date_of_move">
+    <br>
+    <br>
+    <br>
+    <div id="left">
+        <input type="text" id="form_submission_date"><br>
+        <label>তারিখ</label></div>
+    <div id="right">
+        <input type="image" id="signature"><br>
+        <label>ভাড়াটিয়ার স্বাক্ষর</label></div>
+    <br>   
+</form>
+</div><!--end register-->
+    <br>
+    <br>
+    <h3>&emsp;বিঃ দ্রঃ এই ফরমের একটি কপি বাড়ির মালিক অবশ্যই সংরক্ষন করবেন।</h3>
+</div><!--end main-->
+</body>
+</html>
