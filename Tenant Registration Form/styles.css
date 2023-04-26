@@ -20,10 +20,12 @@ label {
 #left {
   width: 50%;
   float: left;
+  display: flex;
 }
 #right {
   width: 50%;
   float: right;
+  display: flex;
 }
 
 table,
@@ -58,25 +60,31 @@ div {
 
 #gridBox2 {
   display: flex;
-  justify-content: flex-end;
-  width: 20rem;
-  height: 202px;
+  justify-content: stretch;
+  width: 285px;
+  height: 184px;
 }
 
 .top-right-table {
-  /* border: none;
-   */
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .top-right-table-body {
-  padding-right: 1rem;
+  display: table;
+}
+
+.top-right-table-data {
+  text-align: left;
 }
 
 .top-right-table-row,
 .top-right-table-data {
   border: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
+}
+
+.top-right-table-data label {
+  font-size: 18;
 }
 
 .main-title {
@@ -104,13 +112,14 @@ tr {
 
 .top-left-picture {
   border: 2px solid black;
-  height: 200px;
-  width: 180px;
+  height: 180px;
+  width: 160px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 20;
+  font-size: 18;
+  border-radius: 10px;
 }
 
 .underlined-input-container {
@@ -127,6 +136,57 @@ tr {
 }
 .main-form-element .underlined-input-container input {
   width: 100%;
+}
+.main-form-element #right .underlined-input-container {
+  width: 65%;
+}
+.current-address-input-container {
+  width: 83% !important;
+}
+
+.work-address-input-container {
+  width: 59.5% !important;
+}
+
+.religion-input-container {
+  width: 82% !important;
+}
+
+.educational-qualification-input-container {
+  width: 61% !important;
+}
+
+.contact-number-input-container {
+  width: 61% !important;
+}
+
+.email-id-input-container {
+  width: 67% !important;
+}
+
+.national-id-input-container {
+  width: 71% !important;
+}
+
+.passport-number-input-container {
+  width: 68% !important;
+}
+.contact-name-input-container {
+  width: 75% !important;
+}
+.contact-relation-input-container {
+  width: 74% !important;
+}
+.contact-address-input-container {
+  width: 69% !important;
+}
+.contact-number-input-container {
+  width: 60% !important;
+}
+.top-right-underlined-input-container {
+  border-bottom: 2px solid black;
+  border-bottom-style: dotted;
+  width: 100% !important;
 }
 
 /* -------- */

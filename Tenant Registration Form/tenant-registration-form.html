@@ -36,8 +36,6 @@
                         </tbody>
                     </table>
                 </div>
-                <br>
-                <br>
                 <h2 class="main-title"><u>ভাড়াটিয়ার নিবন্ধন ফরম</u></h2>
             </div>
             <div class="grid-item">
@@ -46,37 +44,58 @@
                         <tbody class="top-right-table-body">
                             <tr class="top-right-table-row">
                                 <td class="top-right-table-data">
-                                    <label>ফ্ল্যাট/তলা :</label>
+                                    <label>ফ্ল্যাট/তলা</label>
                                 </td>
-                                <td class="top-right-table-data"><input type="text" id="flatDetails">
+                                <td class="top-right-table-data">:</td>
+                                <td class="top-right-table-data">
+                                    <div class="top-right-underlined-input-container">
+                                        <input type="text" id="flatDetails">
+                                    </div>
                                 </td>
                             </tr>
                             <tr class="top-right-table-row">
                                 <td class="top-right-table-data">
-                                    <label>বাড়ী/হোল্ডিং:</label>
+                                    <label>বাড়ী/হোল্ডিং</label>
                                 </td>
-                                <td class="top-right-table-data"><input type="text" id="buidingDetails">
+                                <td class="top-right-table-data">:</td>
+                                <td class="top-right-table-data">
+                                    <div class="top-right-underlined-input-container">
+                                        <input type="text" id="buidingDetails">
+                                    </div>
                                 </td>
                             </tr>
                             <tr class="top-right-table-row">
                                 <td class="top-right-table-data">
-                                    <label>রাস্তা :</label>
+                                    <label>রাস্তা</label>
                                 </td>
-                                <td class="top-right-table-data"><input type="text" id="roadDetails">
+                                <td class="top-right-table-data">:</td>
+                                <td class="top-right-table-data">
+                                    <div class="top-right-underlined-input-container">
+                                        <input type="text" id="roadDetails">
+                                    </div>
                                 </td>
                             </tr>
                             <tr class="top-right-table-row">
                                 <td class="top-right-table-data">
-                                    <label>এলাকা :</label>
+                                    <label>এলাকা</label>
                                 </td>
-                                <td class="top-right-table-data"><input type="text" id="areaDetails">
+                                <td class="top-right-table-data">:</td>
+
+                                <td class="top-right-table-data">
+                                    <div class="top-right-underlined-input-container">
+                                        <input type="text" id="areaDetails">
+                                    </div>
                                 </td>
                             </tr>
                             <tr class="top-right-table-row">
                                 <td class="top-right-table-data">
-                                    <label>পোস্ট কোড :</label>
+                                    <label>পোস্ট কোড</label>
                                 </td>
-                                <td class="top-right-table-data"><input type="text" id="postCode">
+                                <td class="top-right-table-data">:</td>
+                                <td class="top-right-table-data">
+                                    <div class="top-right-underlined-input-container">
+                                        <input type="text" id="postCode">
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>
@@ -93,74 +112,112 @@
                             <input type="text" id="fullName">
                         </div>
                     </div>
-                    <br>
-                    <label>২. পিতার নাম :</label>
-                    <input type="text" id="fatherName">
-                    <br>
-                    <div id="left">
-                        <label>৩. জন্ম তারিখ :</label>
-                        <input type="text" id="birthDate" width=50%>
+                    <div class="main-form-element">
+                        <label>২. পিতার নাম :</label>
+                        <div>
+                            <input type="text" id="fatherName">
+                        </div>
                     </div>
-                    <div id="right">
-                        <label>বৈবাহিক অবস্থা :</label>
-                        <input type="text" id="fullName">
+
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>৩. জন্ম তারিখ :</label>
+                            <div class="underlined-input-container">
+                                <input type="text" id="birthDate">
+                            </div>
+                        </div>
+
+                        <div id="right">
+                            <label>বৈবাহিক অবস্থা :</label>
+                            <div class="underlined-input-container">
+                                <input type="text" id="fullName">
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <label>৪. স্থায়ী ঠিকানা :</label>
-                    <input type="text" id="currentAddress">
-                    <br>
-                    <br>
-                    <label>৫. পেশা ও প্রতিষ্ঠান/কর্মস্থলের ঠিকানা :</label>
-                    <input type="text" id="workAddress">
-                    <br>
-                    <div id="left">
-                        <label>৬. ধর্ম :</label>
-                        <input type="text" id="religion">
+                    <div class="main-form-element">
+                        <label>৪. স্থায়ী ঠিকানা :</label>
+                        <div class="underlined-input-container current-address-input-container">
+                            <input type="text" id="currentAddress">
+                        </div>
                     </div>
-                    <div id="right">
-                        <label>শিক্ষাগত যোগ্যতা :</label>
-                        <input type="text" id="educationalQualification">
+                    <div class="main-form-element">
+                        <label>৫. পেশা ও প্রতিষ্ঠান/কর্মস্থলের ঠিকানা :</label>
+                        <div class="underlined-input-container work-address-input-container">
+                            <input type="text" id="workAddress">
+                        </div>
                     </div>
-                    <br>
-                    <div id="left">
-                        <label>৭. মোবাইল নম্বর :</label>
-                        <input type="text" id="contactNumber">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>৬. ধর্ম :</label>
+                            <div class="underlined-input-container religion-input-container">
+                                <input type="text" id="religion">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>শিক্ষাগত যোগ্যতা :</label>
+                            <div class="underlined-input-container educational-qualification-input-container">
+                                <input type="text" id="educationalQualification">
+                            </div>
+                        </div>
                     </div>
-                    <div id="right">
-                        <label>ইমেইল আইডি :</label>
-                        <input type="text" id="emailID">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>৭. মোবাইল নম্বর :</label>
+                            <div class="underlined-input-container contact-number-input-container">
+                                <input type="text" id="contactNumber">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>ইমেইল আইডি :</label>
+                            <div class="underlined-input-container email-id-input-container">
+                                <input type="text" id="emailID">
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <label>৮. জাতীয় পরিচয়পত্র নম্বর :</label>
-                    <input type="text" id="nationalID">
-                    <br>
-                    <label>৯. পাসপোর্ট নম্বর (যদি থাকে) :</label>
-                    <input type="text" id="passportNumber">
-                    <br>
+                    <div class="main-form-element">
+                        <label>৮. জাতীয় পরিচয়পত্র নম্বর :</label>
+                        <div class="underlined-input-container national-id-input-container">
+                            <input type="text" id="nationalID">
+                        </div>
+                    </div>
+                    <div class="main-form-element">
+                        <label>৯. পাসপোর্ট নম্বর (যদি থাকে) :</label>
+                        <div class="underlined-input-container passport-number-input-container">
+                            <input type="text" id="passportNumber">
+                        </div>
+                    </div>
+
                     <label>১০. জরুরী যোগাযোগ :</label>
-                    <br>
-                    <div id="left">
-                        <label>&emsp;(ক) নাম :</label>
-                        <input type="text" id="contactName">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>&emsp;(ক) নাম :</label>
+                            <div class="underlined-input-container contact-name-input-container">
+                                <input type="text" id="contactName">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>(খ) সম্পর্ক :</label>
+                            <div class="underlined-input-container contact-relation-input-container">
+                                <input type="text" id="contactRelation">
+                            </div>
+                        </div>
                     </div>
-                    <div id="right">
-                        <label>(খ) সম্পর্ক :</label>
-                        <input type="text" id="contactRelation">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>&emsp;(গ) ঠিকানা :</label>
+                            <div class="underlined-input-container contact-address-input-container">
+                                <input type="text" id="contactAddress">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>(ঘ) মোবাইল নম্বর :</label>
+                            <div class="underlined-input-container contact-number-input-container">
+                                <input type="text" id="contactNumber">
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <div id="left">
-                        <label>&emsp;(গ) ঠিকানা :</label>
-                        <input type="text" id="contactAddress">
-                    </div>
-                    <div id="right">
-                        <label>(ঘ) মোবাইল নম্বর :</label>
-                        <input type="text" id="contactNumber">
-                    </div>
-                    <br>
                     <label>১১. পরিবার / মেসের সঙ্গীয় সদস্যদের বিবরণ :</label>
                     <input type="text" id="otherContacts">
-                    <br>
-                    <br>
                     <table class="Center">
                         <tr>
                             <th>ক্রঃ নং</th>
@@ -171,21 +228,21 @@
                         </tr>
                         <tr>
                             <td>১।</td>
-                            <td><input type="text" id="firstContactName" size="50"></td>
+                            <td><input type="text" id="firstContactName" size="48"></td>
                             <td><input type="text" id="firstContactAge"></td>
                             <td><input type="text" id="firstContactJob"></td>
                             <td><input type="text" id="firstContactNumber" size="20"></td>
                         </tr>
                         <tr>
                             <td>২।</td>
-                            <td><input type="text" id="secondContactName" size="50"></td>
+                            <td><input type="text" id="secondContactName" size="48"></td>
                             <td><input type="text" id="secondContactAge"></td>
                             <td><input type="text" id="secondContactJob"></td>
                             <td><input type="text" id="secondContactNumber" size="20"></td>
                         </tr>
                         <tr>
                             <td>৩।</td>
-                            <td><input type="text" id="thirdContactName" size="50"></td>
+                            <td><input type="text" id="thirdContactName" size="48"></td>
                             <td><input type="text" id="thirdContactAge"></td>
                             <td><input type="text" id="thirdContactJob"></td>
                             <td><input type="text" id="thirdContactNumber" size="20"></td>
