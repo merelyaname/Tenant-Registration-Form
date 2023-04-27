@@ -15,28 +15,34 @@
             <div class="grid-item">
                 <h1 class="main-title">ঢাকা মেট্রোপলিটান পুলিশ</h1><br>
                 <div class="top-center-table-container">
-                    <table class=" top-center-table">
+                    <table class="top-center-table">
                         <tbody>
                             <tr>
                                 <td>
-                                    <label>বিভাগ :</label>
+                                    <label>বিভাগ</label>
                                 </td>
+                                <td>:</td>
                                 <td>
-                                    <input type="text" id="department">
+                                    <div class="underlined-input-container top-center-table-input-container">
+                                        <input type="text" id="department">
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <label>থানা :</label>
+                                    <label>থানা</label>
                                 </td>
+                                <td>:</td>
                                 <td>
-                                    <input type="text" id="policeDivision">
+                                    <div class="underlined-input-container top-center-table-input-container">
+                                        <input type="text" id="policeDivision">
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <h2 class="main-title"><u>ভাড়াটিয়ার নিবন্ধন ফরম</u></h2>
+                <h2 class="main-title main-title-1"><u>ভাড়াটিয়ার নিবন্ধন ফরম</u></h2>
             </div>
             <div class="grid-item">
                 <form id="buildingDetails" method="post" class="building-details-form">
@@ -108,13 +114,13 @@
                 <form id="register" method="post">
                     <div class="main-form-element">
                         <label>১. ভাড়াটিয়া/বাড়ীওয়ালার নাম :</label>
-                        <div class="underlined-input-container">
+                        <div class="underlined-input-container full-name-input-container">
                             <input type="text" id="fullName">
                         </div>
                     </div>
                     <div class="main-form-element">
                         <label>২. পিতার নাম :</label>
-                        <div>
+                        <div class="underlined-input-container father-name-input-container">
                             <input type="text" id="fatherName">
                         </div>
                     </div>
@@ -129,8 +135,8 @@
 
                         <div id="right">
                             <label>বৈবাহিক অবস্থা :</label>
-                            <div class="underlined-input-container">
-                                <input type="text" id="fullName">
+                            <div class="underlined-input-container marital-status-input-container">
+                                <input type="text" id="maritalStatus">
                             </div>
                         </div>
                     </div>
@@ -163,7 +169,7 @@
                     <div class="main-form-element">
                         <div id="left">
                             <label>৭. মোবাইল নম্বর :</label>
-                            <div class="underlined-input-container contact-number-input-container">
+                            <div class="underlined-input-container contact-number-3-input-container">
                                 <input type="text" id="contactNumber">
                             </div>
                         </div>
@@ -211,13 +217,17 @@
                         </div>
                         <div id="right">
                             <label>(ঘ) মোবাইল নম্বর :</label>
-                            <div class="underlined-input-container contact-number-input-container">
+                            <div class="underlined-input-container contact-number-2-input-container">
                                 <input type="text" id="contactNumber">
                             </div>
                         </div>
                     </div>
-                    <label>১১. পরিবার / মেসের সঙ্গীয় সদস্যদের বিবরণ :</label>
-                    <input type="text" id="otherContacts">
+                    <div class="main-form-element">
+                        <label>১১. পরিবার / মেসের সঙ্গীয় সদস্যদের বিবরণ :</label>
+                        <div class="underlined-input-container other-contacts-input-container">
+                            <input type="text" id="otherContacts">
+                        </div>
+                    </div>
                     <table class="Center">
                         <tr>
                             <th>ক্রঃ নং</th>
@@ -249,80 +259,126 @@
                         </tr>
                     </table>
                     <br>
-                    <div id="left">
-                        <label>১২. গৃহকর্মীর নাম :</label>
-                        <input type="text" id="spouseContact">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>১২. গৃহকর্মীর নাম :</label>
+                            <div class="underlined-input-container spouse-contact-input-container">
+                                <input type="text" id="spouseContact">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>জাতীয় পরিচয়পত্র নং :</label>
+                            <div class="underlined-input-container national-id-2-input-container">
+                                <input type="text" id="nationalID">
+                            </div>
+                        </div>
                     </div>
-                    <div id="right">
-                        <label>জাতীয় পরিচয়পত্র নং :</label>
-                        <input type="text" id="nationalID">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>&emsp;মোবাইল নম্বর :</label>
+                            <div class="underlined-input-container spouse-number-input-container">
+                                <input type="text" id="spouseNumber">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>স্থায়ী ঠিকানা :</label>
+                            <div class="underlined-input-container spouse-address-input-container">
+                                <input type="text" id="spouseAddress">
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <div id="left">
-                        <label>&emsp;মোবাইল নম্বর :</label>
-                        <input type="text" id="spouseNumber">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>১৩. ড্রাইভারের নাম :</label>
+                            <div class="underlined-input-container driver-name-input-container">
+                                <input type="text" id="driverName">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>জাতীয় পরিচয়পত্র নং :</label>
+                            <div class="underlined-input-container national-id-2-input-container">
+                                <input type="text" id="driverNationalID">
+                            </div>
+                        </div>
                     </div>
-                    <div id="right">
-                        <label>স্থায়ী ঠিকানা :</label>
-                        <input type="text" id="spouseAddress">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>&emsp;মোবাইল নম্বর :</label>
+                            <div class="underlined-input-container driver-number-input-container">
+                                <input type="text" id="driverNumber">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>স্থায়ী ঠিকানা :</label>
+                            <div class="underlined-input-container driver-address-input-container">
+                                <input type="text" id="driverAddress">
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <br>
-                    <div id="left">
-                        <label>১৩. ড্রাইভারের নাম :</label>
-                        <input type="text" id="driverName">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>১৪. পূর্ববর্তী বাড়ীওয়ালার নাম :</label>
+                            <div class="underlined-input-container previous-owner-input-container">
+                                <input type="text" id="previousOwner">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>মোবাইল নম্বর :</label>
+                            <div class="underlined-input-container previous-owner-contact-input-container">
+                                <input type="text" id="ownerContact">
+                            </div>
+                        </div>
                     </div>
-                    <div id="right">
-                        <label>জাতীয় পরিচয়পত্র নং :</label>
-                        <input type="text" id="driverNationalID">
+                    <div class="main-form-element left-margin-1">
+                        <label>ঠিকানা :</label>
+                        <div class="underlined-input-container previous-owner-address-input-container">
+                            <input type="text" id="ownerAddress">
+                        </div>
                     </div>
-                    <br>
-                    <div id="left">
-                        <label>&emsp;মোবাইল নম্বর :</label>
-                        <input type="text" id="driverNumber">
+                    <div class="main-form-element">
+                        <label>১৫. পূর্ববর্তী বাসা ছাড়ার কারণ :</label>
+                        <div class="underlined-input-container reason-for-move-input-container">
+                            <input type="text" id="reason_for_move">
+                        </div>
                     </div>
-                    <div id="right">
-                        <label>স্থায়ী ঠিকানা :</label>
-                        <input type="text" id="driverAddress">
+                    <div class="main-form-element">
+                        <div id="left">
+                            <label>১৬. বর্তমান বাড়িওয়ালার নাম :</label>
+                            <div class="underlined-input-container current-owner-input-container">
+                                <input type="text" id="currentOwner">
+                            </div>
+                        </div>
+                        <div id="right">
+                            <label>মোবাইল নম্বর :</label>
+                            <div class="underlined-input-container current-owner-contact-input-container">
+                                <input type="text" id="current-ownerContact">
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <br>
-                    <div id="left">
-                        <label>১৪. পূর্ববর্তী বাড়ীওয়ালার নাম :</label>
-                        <input type="text" id="previousOwner">
+                    <div class="main-form-element">
+                        <label>১৭. বর্তমান বাড়িতে কোন তারিখ থেকে বসবাস :</label>
+                        <div class="underlined-input-container date-of-move-input-container">
+                            <input type="text" id="date_of_move">
+                        </div>
                     </div>
-                    <div id="right">
-                        <label>মোবাইল নম্বর :</label>
-                        <input type="text" id="ownerContact">
-                    </div>
-                    <br>
-                    <label>&emsp;ঠিকানা :</label>
-                    <input type="text" id="ownerAddress">
-                    <br>
-                    <label>১৫. পূর্ববর্তী বাসা ছাড়ার কারণ :</label>
-                    <input type="text" id="reason_for_move">
-                    <br>
-                    <div id="left">
-                        <label>১৬. বর্তমান বাড়িওয়ালার নাম :</label>
-                        <input type="text" id="currentOwner">
-                    </div>
-                    <div id="right">
-                        <label>মোবাইল নম্বর :</label>
-                        <input type="text" id="current-ownerContact">
-                    </div>
-                    <br>
-                    <label>১৭. বর্তমান বাড়িতে কোন তারিখ থেকে বসবাস :</label>
-                    <input type="text" id="date_of_move">
-                    <br>
-                    <br>
-                    <br>
-                    <div id="left">
-                        <input type="text" id="form_submission_date"><br>
-                        <label>তারিখ</label>
-                    </div>
-                    <div id="right">
-                        <input type="image" id="signature"><br>
-                        <label>ভাড়াটিয়ার স্বাক্ষর</label>
+                    <div class="main-form-element bottom-form-container">
+                        <div id="left" class="bottom-form-element-container">
+                            <div class="underlined-input-container form-submission-date-input-container">
+                                <input type="text" id="form_submission_date"><br>
+                            </div>
+                            <div class="center-label">
+                                <label>তারিখ</label>
+                            </div>
+                        </div>
+                        <div class="blank-spacer"></div>
+                        <div id="right" class="bottom-form-element-container">
+                            <div class="underlined-input-container signature-input-container">
+                                <input type="text" id="signature"><br>
+                            </div>
+                            <div class="center-label">
+                                <label>ভাড়াটিয়ার স্বাক্ষর</label>
+                            </div>
+                        </div>
                     </div>
                     <br>
                 </form>
