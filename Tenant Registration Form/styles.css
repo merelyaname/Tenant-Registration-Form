@@ -72,6 +72,8 @@ div {
 
 .top-right-table-body {
   display: table;
+  width: 16.5rem;
+  margin-left: 0.5rem;
 }
 
 .top-right-table-data {
@@ -84,7 +86,7 @@ div {
 }
 
 .top-right-table-data label {
-  font-size: 14;
+  font-size: 18;
   display: inline-block;
 }
 
@@ -118,9 +120,6 @@ tr {
 
 .top-center-table tbody td {
   text-align: left !important;
-}
-
-.top-center-table-input-container {
 }
 
 .top-left-picture {
@@ -224,6 +223,9 @@ tr {
   border-bottom: 2px solid black;
   border-bottom-style: dotted;
   flex: 1 !important;
+}
+.top-right-input {
+  width: 100%;
 }
 
 .spouse-contact-input-container {
