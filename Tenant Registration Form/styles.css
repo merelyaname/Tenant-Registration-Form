@@ -317,4 +317,16 @@ tr {
   width: 100%;
 }
 
+.logo-table,
+.logo-table th {
+  border: none;
+}
+
+.contacts-table-serial-number {
+  size: 10;
+}
+
+* {
+  font-family: "Bangla", sans-serif;
+}
 /* -------- */
