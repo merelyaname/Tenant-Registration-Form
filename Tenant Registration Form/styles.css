@@ -164,7 +164,29 @@ tr {
   border-bottom: none;
 }
 
+.birth-date-input-container {
+  flex: 1 !important;
+}
 .marital-status-input-container {
+  flex: 1 !important;
+}
+.permanent-address-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-form-element {
+  display: flex;
+  flex-direction: row;
+}
+.lower-form-element {
+  display: flex;
+  flex: 1 !important;
+  margin-left: 6.5rem;
+  margin-top: 0.5rem;
+}
+
+.full-width-input-container {
   flex: 1 !important;
 }
 
