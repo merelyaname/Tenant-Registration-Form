@@ -157,100 +157,100 @@ tr {
 }
 
 .full-name-input-container {
-  width: 72% !important;
+  flex: 1 !important;
 }
 
 .father-name-input-container {
-  width: 85% !important;
+  flex: 1 !important;
   border-bottom: none;
 }
 
 .marital-status-input-container {
-  width: 69% !important;
+  flex: 1 !important;
 }
 
 .current-address-input-container {
-  width: 87% !important;
+  flex: 1 !important;
 }
 
 .work-address-input-container {
-  width: 65% !important;
+  flex: 1 !important;
 }
 
 .religion-input-container {
-  width: 84% !important;
+  flex: 1 !important;
 }
 
 .educational-qualification-input-container {
-  width: 65% !important;
+  flex: 1 !important;
 }
 
 .other-contacts-input-container {
-  width: 59% !important;
+  flex: 1 !important;
 }
 
 .contact-number-2-input-container {
-  width: 65% !important;
+  flex: 1 !important;
 }
 
 .contact-number-3-input-container {
-  width: 66% !important;
+  flex: 1 !important;
 }
 
 .email-id-input-container {
-  width: 71% !important;
+  flex: 1 !important;
 }
 
 .national-id-input-container {
-  width: 74% !important;
+  flex: 1 !important;
 }
 
 .passport-number-input-container {
-  width: 72% !important;
+  flex: 1 !important;
 }
 .contact-name-input-container {
-  width: 77% !important;
+  flex: 1 !important;
 }
 .contact-relation-input-container {
-  width: 78% !important;
+  flex: 1 !important;
 }
 .contact-address-input-container {
-  width: 73% !important;
+  flex: 1 !important;
 }
 .contact-number-input-container {
-  width: 60% !important;
+  flex: 1 !important;
 }
 .top-right-underlined-input-container {
   border-bottom: 2px solid black;
   border-bottom-style: dotted;
-  width: 100% !important;
+  flex: 1 !important;
 }
 
 .spouse-contact-input-container {
-  width: 65% !important;
+  flex: 1 !important;
 }
 
 .national-id-2-input-container {
-  width: 58% !important;
+  flex: 1 !important;
 }
 .spouse-address-input-container {
-  width: 75% !important;
+  flex: 1 !important;
 }
 
 .driver-name-input-container {
-  width: 63% !important;
+  flex: 1 !important;
 }
 
 .driver-address-input-container {
-  width: 75% !important;
+  flex: 1 !important;
 }
 
 .previous-owner-input-container {
-  width: 45% !important;
+  flex: 1 !important;
 }
 
 .previous-owner-contact-input-container {
-  width: 72% !important;
+  flex: 1 !important;
 }
 
 .left-margin-1 {
@@ -258,23 +258,23 @@ tr {
 }
 
 .previous-owner-address-input-container {
-  width: 92% !important;
+  flex: 1 !important;
 }
 
 .reason-for-move-input-container {
-  width: 72% !important;
+  flex: 1 !important;
 }
 
 .current-owner-input-container {
-  width: 45% !important;
+  flex: 1 !important;
 }
 
 .current-owner-contact-input-container {
-  width: 72% !important;
+  flex: 1 !important;
 }
 
 .date-of-move-input-container {
-  width: 57.5% !important;
+  flex: 1 !important;
 }
 
 .bottom-form-container {
@@ -324,6 +324,11 @@ tr {
 
 .contacts-table-serial-number {
   size: 10;
+}
+
+.no-wrap {
+  white-space: nowrap;
+  padding: 3px;
 }
 
 * {
