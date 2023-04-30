@@ -84,7 +84,8 @@ div {
 }
 
 .top-right-table-data label {
-  font-size: 18;
+  font-size: 14;
+  display: inline-block;
 }
 
 .main-title {
