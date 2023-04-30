@@ -90,6 +90,8 @@ div {
 
 .main-title {
   text-align: center;
+  border: none;
+  image-orientation: top;
 }
 .main-title-1 {
   margin-bottom: 2rem;
