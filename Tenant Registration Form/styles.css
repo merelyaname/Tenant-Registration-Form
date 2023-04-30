@@ -99,6 +99,13 @@ div {
   margin-bottom: 2rem;
 }
 
+h2.main-title.top-title {
+  padding-top: 1rem;
+}
+
+.top-title {
+  font-size: 30;
+}
 .building-details-form {
   display: flex;
   justify-content: flex-end;
@@ -344,6 +351,13 @@ tr {
 .logo-table,
 .logo-table th {
   border: none;
+}
+
+.logo-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14;
 }
 
 .contacts-table-serial-number {
